@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: "jakarta";
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+@font-face {
+    font-family: "jakarta";
+    src: url("PlusJakartaSans-Regular.ttf");
+}
+
+
+
+input[type="text"] {
+    background-image: url("search\ icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;  
+    background-position: 18px;
+}
+ 
+
+.form-control::placeholder {
+    color: rgba(155, 155, 155, 1);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.background1 {
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background2 {
+    background-image: url("Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background3 {
+    background-image: url("banner\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+
+.background4 {
+    background-image: url("banner\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+.background5 {
+    background-image: url("How\ to\ design\ and\ order.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background6 {
+    background-image: url("banner\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+/* 
+input[type="email"] {
+    background-image: url("arrow icon.png");
+    background-repeat: no-repeat;
+    background-size: 26px 20px;
+    background-position: right;
+}
+*/
+
+
+.input1::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(155, 155, 155, 1);
+}
+
+    
+
+
+.backgroundItem1 {
+    background-image: url("item 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background7 {
+    background-image: linear-gradient(90deg, rgba(234, 198, 69, 1),
+rgba(242, 161, 115, 1),
+rgba(151, 222, 192, 1),
+rgba(108, 135, 230, 1),
+rgba(206, 78, 238, 1),
+rgba(239, 91, 44, 1));
+}
